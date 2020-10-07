@@ -53,7 +53,36 @@ public static void main(String[] args) {
 		value = value + 1;
 		year = year + 1 ; 
 	}
-	
+	//2x2 grid
+	for(int i = 0; i < 3; i++) {
+		for(int j = 0; j < 3; j++) {
+			System.out.println(i + " " +j);
+			
+			
+		}
+
+	}
+	//3x3 grid
+	for (int k = 0; k < 3; k++) {
+		for (int l = 0; l < 3; l++) {
+				System.out.print(k*3 + l + 1);
+		
+		}
+		System.out.println();
+	}
+	//10x10
+	for (int b = 0; b < 10; b++) {
+		for (int a = 0; a < 10; a++) {
+			System.out.print(b*10 + 1 + a + "\t");
+		}
+		System.out.println();
+	}
+	for (int i = 0; i < 6; i++) {
+		for (int j = 0; j < i+1; j++) {
+			System.out.print("*");
+		}
+		System.out.println();
+	}
 }
 	
 }
